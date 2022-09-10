@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level-3</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="w-9/12 bg-violet-400 mx-auto p-14 mt-60 rounded-lg">
+        <div class="mx-auto w-6/12">
+            <section >
+                <input id="input-F1" class="border-2 border-rose-600 rounded-lg w-60 p-3" type="text" id="name">
+                <button onclick="addName()" class="bg-fuchsia-600 rounded-lg p-3">Send Name</button>
+                <button onclick="removeName()" class="bg-fuchsia-600 rounded-lg p-3">Delete Name</button>
+            </section>
+            <section class="my-5">
+                <input id="input-F2" class="border-2 border-rose-600 rounded-lg w-60 p-3" type="text" id="Email">
+                <button onclick="addEmail()" class="bg-fuchsia-600 rounded-lg p-3">Send Email</button>
+                <button onclick="removeEmail()" class="bg-fuchsia-600 rounded-lg p-3">Delete Email</button>
+            </section>
+            <section  class="mb-5">
+                <input id="input-F3" class="border-2 border-rose-600 rounded-lg w-60 p-3" type="text" id="messege">
+                <button onclick="addMessege()" class="bg-fuchsia-600 rounded-lg p-3">Send Messege</button>
+                <button onclick="removeMessege()" class="bg-fuchsia-600 rounded-lg p-3">Delete Messege</button>
+            </section>
+            <button onclick="reset()" class="bg-fuchsia-600 rounded-lg p-3">Reset</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
